@@ -38,3 +38,6 @@ vwd.webinfo
 WebEssentials-Settings.json
 vendor
 composer.lock
+
+# Ignore npm shrinkwrap
+npm-shrinkwrap.json
