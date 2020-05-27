@@ -3,8 +3,7 @@
 		<div class="form-group" ng-class="{'has-error':item.sections[0].isError == true}">
 			<div class="col-sm-12 col-xs-12">
 				<div class="input-group">
-					<input autocapitalize="off" autocorrect="off" spellcheck="off" autocomplete="off" id="courses{{index}}" class="form-control searchField mousetrap" ng-model="item.search" type="text" name="courses{{index}}" placeholder="DEPT-CRS-SECT, DEPT-CRS-SECT..." />
-					<span class="input-group-btn">
+					<input autocapitalize="off" autocorrect="off" spellcheck="off" autocomplete="off" id="courses{{index}}" class="form-control searchField mousetrap" ng-model="item.search" type="text" name="courses{{index}}" placeholder="DEPT-CRS-SECT, DEPT-CRS-SECT..." /> <span class="input-group-btn">
 						<button title="Shortcut: Esc" type="button" ng-class="{'btn-danger':delHover}" ng-blur="delHover = false" ng-focus="delHover = true" ng-mouseenter="delHover = true" ng-mouseleave="delHover = false" class="btn btn-default" ng-click="remove()">
 							<i class="fa fa-spin fa-refresh" ng-show="item.status == 'L'"></i> <i class="fa fa-times" ng-show="item.status == 'D'"></i>
 						</button>
